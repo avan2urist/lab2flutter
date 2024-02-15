@@ -23,8 +23,9 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Row(
-          children: [
-            Column(
+          children: [Expanded(
+            flex: 4,
+            child: Column(
               children: [
                 Expanded(
                   flex: 4,
@@ -32,6 +33,14 @@ class MyHomePage extends StatelessWidget {
                     color: Colors.blue,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '1',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
@@ -41,68 +50,129 @@ class MyHomePage extends StatelessWidget {
                     color: Colors.red,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: Text(
+                        '2',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
                 Expanded(
                   flex: 1,
                   child: Container(
-                    color: Colors.black,
+                    color: Colors.green,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '3',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
                 Expanded(
                   flex: 4,
                   child: Container(
-                    color: Colors.green,
+                    color: Colors.purple,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '4',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
               ],
             ),
-            Column(
+            ),
+            
+            Expanded(
+            flex: 4,
+            child: Column(
               children: [
                 Expanded(
                   flex: 4,
                   child: Container(
-                    color: Colors.blue,
+                    color: Colors.grey,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '5',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
                 Expanded(
                   flex: 1,
                   child: Container(
-                    color: Colors.red,
+                    color: Colors.limeAccent,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: Text(
+                        '6',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
                 Expanded(
                   flex: 1,
                   child: Container(
-                    color: Colors.black,
+                    color: Colors.pink,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '7',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
                 Expanded(
                   flex: 4,
                   child: Container(
-                    color: Colors.green,
+                    color: Colors.brown,
                     width: 400,
                     height: 400,
+                    child: const Center(
+                      child: const Text(
+                        '8',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
                     margin: const EdgeInsets.all(8),
                   ),
                 ),
               ],
+            ),
             ),
           ],
         ),
