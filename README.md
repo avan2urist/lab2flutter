@@ -1,16 +1,10 @@
-# lab2flutter
+# without change 
 
-A new Flutter project.
+![image](https://github.com/avan2urist/lab2flutter/assets/156675394/86ea52c1-3f71-4897-8369-341fc903f466)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## With changed 
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/avan2urist/lab2flutter/assets/156675394/c34dad8b-270f-4f68-a1bb-6e332fb789ae)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
